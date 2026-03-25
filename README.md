@@ -59,6 +59,8 @@ Texto de noticia
 ## 🗂️ Dataset
 
 El corpus fue construido y anotado manualmente desde cero a partir de noticias reales de organizaciones ecuatorianas de verificación de hechos, adaptando el framework **SciTweets** para el contexto ecuatoriano en español.
+Los criterios completos, ejemplos y reglas de resolución de ambigüedades están documentados en annotation/guia_etiquetado.pdf.
+
 
 ```
 datasets/
@@ -108,6 +110,8 @@ datasets/
 ```
 ├── datasets/
 │   └── corpus_anotado.csv
+├── annotation/
+│   └── guia_etiquetado.pdf 
 ├── images/
 │   └── *.png                  # Capturas del sistema en producción
 └── README.md
